@@ -1,0 +1,30 @@
+# Dependências
+node_modules/
+
+# PDFs baixados
+out/bulas/
+
+# Screenshots
+out/screenshots/
+
+# Logs
+logs/
+*.log
+
+# Estado de execução do RPA
+out/progress.json
+out/status.json
+out/schedule.json
+
+# Resultados gerados durante execução
+out/results.csv
+out/results_testes_antigos.csv
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Sistema / Editor
+.DS_Store
+Thumbs.db
+.vscode/

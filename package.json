@@ -1,0 +1,19 @@
+{
+  "name": "bulario-rpa-v2",
+  "version": "2.0.0",
+  "description": "RPA para consulta e download de bulas profissionais no Bulário da Anvisa",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "schedule": "node src/schedule.js",
+    "painel": "node painel/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^7.0.2",
+    "fs-extra": "^11.4.0",
+    "playwright": "^1.62.1"
+  }
+}
